@@ -1,4 +1,8 @@
-const Card = ({ username = "Jane Smith", post = "Not assigned yet" }) => {
+const Card = ({
+  username = "Jane Smith",
+  post = "Not assigned yet",
+  address = "No address",
+}) => {
   return (
     <div>
       <figure className="bg-slate-100 rounded-xl p-8 dark:bg-slate-800">
@@ -20,6 +24,7 @@ const Card = ({ username = "Jane Smith", post = "Not assigned yet" }) => {
           <figcaption>
             <div>{username}</div>
             <div>{post}</div>
+            <div>{address}</div>
           </figcaption>
         </div>
       </figure>
