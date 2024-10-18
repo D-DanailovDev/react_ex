@@ -57,5 +57,3 @@ function App() {
 }
 
 export default App;
-
-// https://www.youtube.com/watch?v=Tu9_vmzEK9w&list=PLRAV69dS1uWQos1M1xP6LWN6C-lZvpkmq&index=9
